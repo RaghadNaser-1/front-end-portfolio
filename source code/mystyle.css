@@ -1,0 +1,44 @@
+        #logo img{width: 150px;height: 150px;border-radius: 50%;box-shadow: 1px 1px 2px 1px white;border: 2px solid white;margin-bottom: 10px;}
+        #home{display: flex;justify-content:center;align-items: center;background-color: #407BFF;height: 750px;color: white;flex-direction: column;}
+        #myintro{text-align: center;}
+        #about{padding: 50px;display: flex;align-items: center;;height: 750px;justify-content: space-around;}
+        #info {width: 50%;}
+        h2:hover{text-decoration: underline;}
+        #blue{color: #407BFF;font-weight: bold;}
+        #skills{padding: 50px;display: flex; height: 750px;background-color: #407BFF;align-items:center;justify-content:space-around;color: white;}
+        #Qualifications{padding: 50px;height: 750px;display: flex; align-items: center; justify-content: space-around;}
+        #Experience{background-color: #407BFF;height: 750px;padding: 50px;display: flex; align-items: center; justify-content: space-around;color: white;}
+        #Services{padding: 50px;height: 750px;text-align: center;display: flex; flex-direction: column;justify-content: center;}
+        #cards{display: flex; align-items: center; justify-content: space-around;}
+        .card {box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);border-radius: 5px;margin: 5px; }
+        .card img {border-radius: 5px 5px 0 0;padding: 15px;}
+        #contact{height: 750px; padding: 50px;background-color: #407BFF;display: flex; justify-content: space-around;align-items: center;color: white;}
+        fieldset {padding: 20px;border: 2px solid white;}
+        form{width: 50%;color: white;}
+        input{width: 100%;padding: 5px;}
+        textarea{resize: none;width: 100%;padding: 5px;}
+        #submit{width: 150px; color: white;background-color: #407BFF;border: 2px solid white;}
+        #submit:hover{background-color: white;color: #407BFF;}
+        #social-m img {width: 75px; height: 75px;}
+        #social-m {display: grid;grid-template-columns: repeat(3,auto); grid-template-rows: auto;}
+        #account{text-align: center;}
+        footer{height: 100px;display: flex;justify-content: space-between;align-items: center;background-color: black;color: white;padding: 25px;}
+        .image{width:400px; height:400px;}
+        .cardimg{width: 300px;height: 300px;}
+        @media screen and (max-width: 750px) {
+          #about,#skills,#Qualifications,#Experience,#cards,#contact{flex-direction: column;}
+          #info,form{width: 100%;}
+          #Services{height: 1300px;}          
+        }
+        @media screen and (max-width: 500px) {
+          footer{flex-direction: column;justify-content: center;}
+        }
+        @media screen and (max-width: 400px) {
+          .image{width: 250px;height: 250px;}
+          .cardimg{width: 200px;height: 200px;}
+          .card{width: 100%;}
+          #Services{height: 1000px;}
+          #social-m img {width: 50px; height: 50px;}
+          #submit{width: 100px;}
+        }
+
